@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("http://netdna.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+@import '../node_modules/angular-notifier/styles.css';
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #edf1f5;
+  margin-top: 20px;
+}
+
+h2{
+  color: #edf1f5;
+  font-size:x-large;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+}
+
+.boutons{
+  display: flex;
+  align-items: stretch;
+  justify-content: end;
+  gap: 8px;
+}
+
+.add{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table thead th {
+  padding-top: 15px; /* Ajuste la valeur selon tes besoins */
+  padding-bottom: 15px; /* Ajuste la valeur selon tes besoins */
+}
+
+.table td {
+  vertical-align: middle; /* Centre verticalement le contenu des cellules */
+}
+
+.table-title {
+background-color:#0f3e63;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 10px;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 98%;
+  background-color: #fff;
+}
+
+.table {
+  width: 95%;
+}
+
